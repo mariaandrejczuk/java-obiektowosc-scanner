@@ -8,4 +8,9 @@ public class Order {
         this.text = text;
         this.quantity = quantity;
     }
+    void display(){
+        System.out.println(name+" | "+text+" | "+quantity);
+        //System.out.println("Text: "+text);
+        //System.out.println("Quantity: "+quantity);
+    }
 }

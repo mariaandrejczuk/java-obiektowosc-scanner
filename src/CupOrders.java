@@ -30,6 +30,8 @@ public class CupOrders {
 
                     break;
                 case 2:
+                    orderRepository.displayAll();
+
                     break;
                 case 3:
                     break;
